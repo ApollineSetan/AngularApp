@@ -1,0 +1,7 @@
+<div class="list-friends">
+    <label for="friend">Ajouter un ami :</label>
+    <input type="text" id="friend" (input)="onInputChange($event)" placeholder="Tapez un nom d'ami" />
+    <p>Vous avez tapé : {{ friendName }}</p>
+    <button (click)="addFriend()">Ajouter l'ami</button>
+    <p>{{ message }}</p>
+  </div>
