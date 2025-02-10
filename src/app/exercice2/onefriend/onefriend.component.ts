@@ -14,12 +14,14 @@ export class OnefriendComponent {
   userHobbies : string[] = ['musique', 'photographie', 'développement'];
 
   getUserAge() : string {
-    return this.userAge >= 18 ? ' (majeure)' : ' (mineure)' ;
+    return this.userAge >= 18
+     ? ' (majeure)' 
+     : ' (mineure)' ;
   }
 
   getUserHobbies() : string {
     return this.userHobbies.includes('développement')
-    ? `${this.userName} est quelqu'un de cool ! `
+    ? `${this.userName} est quelqu'un de cool !`
     : `${this.userName} est ringarde !`;
   }
 

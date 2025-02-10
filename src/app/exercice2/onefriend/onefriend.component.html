@@ -1,11 +1,13 @@
 <div class="user-card">
     <div class="user-details">
       <h2>{{ userName }}</h2>
-      <p><strong>Email:</strong> {{ userEmail }}</p>
-      <p><strong>Ville:</strong> {{ userCity }}</p>
-      <p><strong>Hobbies:</strong> {{ userHobbies }}</p>
-      <p><strong>Âge:</strong> {{ userAge }} {{ getUserAge() }}</p>
+      <p><strong>Email :</strong> {{ userEmail }}</p>
+      <p><strong>Ville :</strong> {{ userCity }}</p>
+      <p><strong>Hobbies :</strong> {{ userHobbies }}</p>
+      <p><strong>Âge :</strong> {{ userAge }} {{ getUserAge() }}</p>
       <br>
-      <span>{{ getUserHobbies() }}</span>
+      <p>{{ getUserHobbies() }}</p>
+      <br>
+      <span>{{ userHobbies ? 'Ce profil est complet.' : 'Des infos sont manquantes.' }}</span>
     </div>
   </div>

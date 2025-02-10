@@ -1,5 +1,11 @@
 section {
-    background: rgb(255, 0, 170);
+    background: linear-gradient(#e66465, #ff42c0);
     width: 300px;
     padding: 10px ;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+p {
+    padding-left: 11px;
 }
