@@ -14,7 +14,7 @@ export class OnefriendComponent {
   userHobbies : string[] = ['musique', 'photographie', 'développement'];
 
   getUserAge() : string {
-    return this.userAge >= 18 ? ' (majeure)' : ' (mineur)' ;
+    return this.userAge >= 18 ? ' (majeure)' : ' (mineure)' ;
   }
 
 }
