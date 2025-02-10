@@ -13,6 +13,11 @@ nav ul {
   align-items: center;
 }
 
+nav .dropdown {
+  color: white;
+  font-size: 18px;
+}
+
 nav ul li a {
   color: white;
   text-decoration: none;
@@ -44,11 +49,11 @@ nav .dropdown {
 }
 
 nav .dropdown-menu {
-  display: none;  /* Cache le sous-menu par défaut */
-  position: absolute;  /* Positionne le sous-menu sous l'élément "Exercices" */
-  top: 100%;  /* Place le menu directement sous le lien */
+  display: none; 
+  position: absolute;
+  top: 100%;
   left: 0;
-  background-color: #444;
+  background-color: #f000a0;
   min-width: 200px;
   border-radius: 5px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -58,6 +63,7 @@ nav .dropdown-menu {
 
 nav .dropdown-menu li a {
   color: white;
+  font-size: 12px;
   padding: 10px 20px;
   display: block;
   text-decoration: none;
@@ -68,7 +74,6 @@ nav .dropdown-menu li a:hover {
   color: white;
 }
 
-/* Afficher le dropdown au survol */
 nav .dropdown:hover .dropdown-menu {
-  display: block;  /* Affiche le sous-menu lorsqu'on survole l'élément "Exercices" */
+  display: block;
 }
