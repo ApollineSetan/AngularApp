@@ -1,0 +1,74 @@
+/* Styles de la barre de navigation */
+nav {
+  background-color: #333;
+  padding: 15px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+nav i {
+  font-size: 13px;
+  color: #ffffff;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+nav i:hover {
+  color: #f000a0;
+}
+
+/* Styles du dropdown */
+nav .dropdown {
+  position: relative;  /* Nécessaire pour positionner le sous-menu */
+}
+
+nav .dropdown-menu {
+  display: none;  /* Cache le sous-menu par défaut */
+  position: absolute;  /* Positionne le sous-menu sous l'élément "Exercices" */
+  top: 100%;  /* Place le menu directement sous le lien */
+  left: 0;
+  background-color: #444;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  list-style: none;
+}
+
+nav .dropdown-menu li a {
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+}
+
+nav .dropdown-menu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Afficher le dropdown au survol */
+nav .dropdown:hover .dropdown-menu {
+  display: block;  /* Affiche le sous-menu lorsqu'on survole l'élément "Exercices" */
+}
