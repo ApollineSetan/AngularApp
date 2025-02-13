@@ -1,0 +1,6 @@
+<div class="input">
+    <label for="username">Entrez votre nom :</label>
+    <input type="text" id="username" [(ngModel)]="userName" placeholder="Votre nom" />
+    <p>Nom d'utilisateur : {{ userName }}</p>
+    <button [disabled]="!userName" (click)="resetUserName()">Reset</button>
+  </div>

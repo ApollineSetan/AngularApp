@@ -1,0 +1,13 @@
+<div>
+    <button (click)="onToggleDetails()">Afficher détails</button>
+    <p *ngIf="showDetails">Ceci est un paragraphe que vous pouvez masquer</p>
+    <ul>
+      <li 
+        *ngFor="let click of clickLog; let i = index"
+        [ngStyle]="{ 'background-color': i >= 4 ? 'pink' : 'transparent' }" 
+        [ngClass]="{ 'text-white': i >= 4 }">
+        {{ click }}
+      </li>
+    </ul>
+  </div>
+  

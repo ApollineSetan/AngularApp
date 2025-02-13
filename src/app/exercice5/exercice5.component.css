@@ -1,9 +1,9 @@
-.list-friends {
+.user-input {
   width: 300px;
   margin: 20px auto;
   text-align: center;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 8px;
 }
 
@@ -22,13 +22,14 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
-button:hover {
-  background: linear-gradient(#e97979, #ec65bf);
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
-p {
-  margin: 10px 0;
-  font-size: 16px;
+button:hover:not(:disabled) {
+  background: linear-gradient(#e67272, #f152bc);
 }

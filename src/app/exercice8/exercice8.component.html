@@ -1,0 +1,17 @@
+<section>
+    <h1>List Friends</h1>
+    <div class="match">
+      <div *ngFor="let friend of listFriendsTab">
+        <app-onefriend5
+          [userName]="friend.name"
+          [userAge]="friend.age"
+          [userEmail]="friend.email">
+        </app-onefriend5>
+      </div>
+  
+      <p>Vous avez 3 secondes pour match...</p>
+      <button [disabled]="buttonDisabled">Match</button>
+      <br>
+    </div>
+  </section>
+  

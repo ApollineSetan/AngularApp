@@ -1,17 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Onefriend3Component } from './onefriend3.component';
 
-describe('Onefriend3Component', () => {
-  let component: Onefriend3Component;
-  let fixture: ComponentFixture<Onefriend3Component>;
+import { Exercice8Component } from './exercice8.component';
+
+describe('Exercice8Component', () => {
+  let component: Exercice8Component;
+  let fixture: ComponentFixture<Exercice8Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Onefriend3Component]
+      imports: [Exercice8Component]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Onefriend3Component);
+    fixture = TestBed.createComponent(Exercice8Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,7 @@
+<div class="list-friends">
+    <label for="friend">Ajouter un ami :</label>
+    <input type="text" id="friend-name" [(ngModel)]="friendName" placeholder="Tapez un nom d'ami" />
+    <button (click)="addFriend()">Ajouter l'ami</button>
+</div>
+    <p>{{ message }}</p>
+    <p *ngIf="friendAddedMessage">{{ friendAddedMessage }}</p>
