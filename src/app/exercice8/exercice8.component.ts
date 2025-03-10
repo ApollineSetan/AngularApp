@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { Onefriend5Component } from './onefriend5/onefriend5.component';
 
 @Component({
   selector: 'app-exercice8',
-  imports: [Onefriend5Component],
+  imports: [Onefriend5Component, CommonModule],
   templateUrl: './exercice8.component.html',
   styleUrl: './exercice8.component.css'
 })
+
 export class Exercice8Component {
   buttonDisabled: boolean = false;
 
