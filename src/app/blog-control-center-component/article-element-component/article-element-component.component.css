@@ -1,0 +1,48 @@
+.article-element {
+  border: 1px solid #ddd;
+  padding: 25px;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  background: #d586d7;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.article-element h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.article-element p {
+  font-size: 1rem;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.article-element .info {
+  font-size: 0.875rem;
+  color: #000000;
+}
+
+.article-element .badge {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.article-element .badge-article {
+  background-color: #c303a3;
+  color: white;
+}
+
+.article-element .badge-brouillon {
+  background-color: #9307ff;
+  color: white;
+}

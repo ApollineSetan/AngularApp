@@ -1,0 +1,61 @@
+.body {
+  background-color: #e66465;
+}
+
+.add-article-form {
+  background: linear-gradient(#e66465, #ff42c0);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+}
+
+.add-article-form h3 {
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.add-article-form h4 {
+  font-size: 2rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.add-article-form label {
+  display: block;
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.add-article-form input,
+.add-article-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.add-article-form button {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(#e66465, #ff42c0);
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px 10px 5px 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.add-article-form button:hover {
+  background: linear-gradient(#e78b8b, #f173c7);
+}
+
+.add-article-form button:focus {
+  outline: none;
+}

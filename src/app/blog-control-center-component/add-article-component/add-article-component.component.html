@@ -1,0 +1,13 @@
+<div class="add-article-form">
+  <h4>Add-Article</h4>
+    <h3>Ajouter un article ou un brouillon !</h3>
+    <label for="title">Titre article</label>
+    <input type="text" id="title" [(ngModel)]="title">
+  
+    <label for="content">Contenu article</label>
+    <textarea id="content" [(ngModel)]="content"></textarea><br>
+  
+    <button (click)="onAddArticle()">Ajouter Article</button>
+    <button (click)="onAddBrouillon()">Ajouter Brouillon</button>
+  </div>
+  

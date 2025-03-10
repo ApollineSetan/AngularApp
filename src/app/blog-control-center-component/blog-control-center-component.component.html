@@ -1,0 +1,11 @@
+<div class="blog-control-center">
+    <h2>Blog Control Center</h2>
+  
+    <app-add-article-component (articleCreated)="onArticleAdded($event)"(brouillonCreated)="onBrouillonAdded($event)">
+    </app-add-article-component>
+  
+    <div *ngFor="let article of articles">
+      <app-article-element-component [article]="article"></app-article-element-component>
+    </div>
+  </div>
+  

@@ -1,0 +1,12 @@
+<div class="article-element">
+    <h2>Article-Element</h2>
+    <h3>{{ article.title }}</h3>
+    <p>{{ article.content }}</p>
+    <p class="info">Écrit par {{ article.author }} <br> le {{ article.date | date }}</p>
+    <span class="badge" [ngClass]="article.type === 'article' ? 'badge-article' : 'badge-brouillon'">
+      {{ article.type === 'article' ? 'Article' : 'Brouillon' }}
+    </span>
+  </div>
+  <br>
+  <br>
+  

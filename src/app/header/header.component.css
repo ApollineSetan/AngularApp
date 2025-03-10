@@ -45,11 +45,11 @@ nav i:hover {
 
 /* Styles du dropdown */
 nav .dropdown {
-  position: relative;  /* Nécessaire pour positionner le sous-menu */
+  position: relative; /* Nécessaire pour positionner le sous-menu */
 }
 
 nav .dropdown-menu {
-  display: none; 
+  display: none;
   position: absolute;
   top: 100%;
   left: 0;

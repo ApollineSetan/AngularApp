@@ -9,6 +9,7 @@ import { Exercice6Component } from './exercice6/exercice6.component';
 import { Exercice7Component } from './exercice7/exercice7.component';
 import { Exercice8Component } from './exercice8/exercice8.component';
 import { Exercice9Component } from './exercice9/exercice9.component';
+import { BlogControlCenterComponentComponent } from './blog-control-center-component/blog-control-center-component.component';
 
 export const routes: Routes = [
     {path: '',component: HomeComponent},
@@ -21,4 +22,5 @@ export const routes: Routes = [
     {path: 'exercice7',component: Exercice7Component},
     {path: 'exercice8',component: Exercice8Component},
     {path: 'exercice9',component: Exercice9Component},
+    {path: 'exercice10',component: BlogControlCenterComponentComponent},
 ];
