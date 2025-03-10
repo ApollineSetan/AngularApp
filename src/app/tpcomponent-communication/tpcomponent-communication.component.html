@@ -1,0 +1,6 @@
+<h2>TP : Component Communication</h2>
+<section>
+    <app-affichage-donnees [firstname]="firstname" [age]="age"></app-affichage-donnees>
+    <app-formulaire-edition (onSubmit)="updateUser($event.firstname, $event.age)"></app-formulaire-edition>
+  </section>
+  

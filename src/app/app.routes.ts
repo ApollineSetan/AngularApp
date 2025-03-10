@@ -11,6 +11,7 @@ import { Exercice8Component } from './exercice8/exercice8.component';
 import { Exercice9Component } from './exercice9/exercice9.component';
 import { BlogControlCenterComponentComponent } from './blog-control-center-component/blog-control-center-component.component';
 import { APIComponent } from './api/api.component';
+import { TPComponentCommunicationComponent } from './tpcomponent-communication/tpcomponent-communication.component';
 
 export const routes: Routes = [
     {path: '',component: HomeComponent},
@@ -25,4 +26,5 @@ export const routes: Routes = [
     {path: 'exercice9',component: Exercice9Component},
     {path: 'exercice10',component: BlogControlCenterComponentComponent},
     {path: 'exercice11',component: APIComponent},
+    {path: 'TP',component: TPComponentCommunicationComponent},
 ];

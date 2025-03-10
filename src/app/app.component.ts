@@ -10,9 +10,18 @@ import { APIComponent } from './api/api.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, FormsModule, FontAwesomeModule, HomeComponent, HeaderComponent, FooterComponent, APIComponent],
+  imports: [
+    RouterOutlet,
+    RouterLink,
+    FormsModule,
+    FontAwesomeModule, 
+    HomeComponent, 
+    HeaderComponent, 
+    FooterComponent, 
+    APIComponent
+  ],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'] 
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'my-angular-app';
